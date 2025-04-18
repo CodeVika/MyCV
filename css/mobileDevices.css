@@ -1,0 +1,113 @@
+@media screen and (max-width: 500px) {
+    .main-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        padding: 15px;
+    }
+
+    .header img {
+        width: 150px;
+        border-radius: 35px;
+    }
+
+    .data {
+        margin-top: 45px;
+    }
+
+    .info {
+        width: auto;
+    }
+
+    article {
+        width: auto;
+    }
+
+    .wall {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1300px;
+    }
+
+    article h1 {
+        text-align: left;
+        width: 70%;
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .wall {
+        height: auto;
+    }
+    .information-block{
+        width: 80vw;
+        margin-left: 20px;
+    }
+    .certificate-block img{
+        width: 50px;
+        height: 50px;
+    }
+    .certificate-block{
+        width: 200px;
+    }
+    .certificate-block p{
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: auto;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header h1 {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .information-block ul {
+        padding-inline-start: 20px;
+    }
+
+    .header img {
+        width: 150px;
+        border-radius: 35px;
+    }
+
+    .data {
+        margin-top: 45px;
+    }
+
+    .info {
+        padding: 15px;
+        min-width: 30%;
+        max-width: 35%;
+    }
+
+    article {
+        width: auto;
+        height: 100%;
+    }
+
+    .article {
+        width: 70%;
+    }
+
+    article h1 {
+        width: 70%;
+    }
+}
